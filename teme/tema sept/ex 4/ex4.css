@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    width: 400px;
+   
+  }
+  
+  .column-left {
+    flex: 70%;
+    border: 1xp;
+    border-style: solid;
+    border-color: black;
+   padding: 1em;
+   padding-bottom: 30px;
+    
+  }
+  .column-right {
+    flex: 30%;
+    border: 1xp;
+    border-style: solid;
+    border-color: black;
+    padding: 1em;
+    padding-bottom: 20px;
+    
+  }
+  ul, li {
+    list-style: none;
+    }
+ .info{
+    font-size:  14px;
+ }
+ .top-elements{
+    text-align: center;
+ }
+ .box{
+    font-size: 12px;
+ }
+ .profession{
+   
+        display: flex; 
+        justify-content: space-between; 
+        font-size: 12px;
+        text-align: center;
+ }
